@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DollarExchange</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>US Dollar to Canadian Dollar</h1>
+      <h2>Convert USD to CAD at the real exchange rate</h2>
+    </header>
+    <main>
+      <form id="converter" onsubmit="convertAction(event)" class="input-fields">
+        <p  class="label">Amount Convert To</p>
+        <input type="text" id="box1" name="box1" />
+        <select id="dropDown_1">
+          <option value="USD">USD</option>
+          <option value="CAD">CAD</option>
+        </select>
+        <p class="label">Amount Convert To</p>
+        <input type="text" id="box2" name="box2" />
+        <select id="dropDown_2">
+          <option value="CAD">CAD</option>
+          <option value="USD">USD</option>
+        </select>
+        <input class="button" type="submit" value="Convert"  />
+      </form>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
